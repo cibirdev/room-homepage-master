@@ -147,12 +147,12 @@ li:hover:after {
     display: flex;
     position: absolute;
     z-index: 998;
-    top: 57%;
-    left: 59.7%;
+    top: 56.7%;
+    left: 59.25%;
 }
 
 .next-back-btn button {
-    width: 5.9rem;
+    width: 4.9rem;
     height: 4rem;
     background: hsl(0, 0%, 0%);
     outline: none;
