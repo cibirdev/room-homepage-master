@@ -277,6 +277,7 @@ li:hover:after {
     }
 
     .links {
+        display: none;
         background-color: white;
         position: absolute;
         z-index: 999;
