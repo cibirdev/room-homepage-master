@@ -173,6 +173,11 @@ li:hover:after {
     display: none;
 }
 
+.icon-close,
+.icon-hamburger {
+    display: none;
+}
+
 @media only screen and (max-width: 375px) {
     body {
         max-width: 100%;
@@ -280,6 +285,7 @@ li:hover:after {
     }
 
     .icon-close {
+        display: inline;
         position: absolute;
         left: 10%;
         top: 2rem;
@@ -287,6 +293,7 @@ li:hover:after {
     }
 
     .icon-hamburger {
+        display: inline;
         position: absolute;
         left: 10%;
         top: 2rem;
