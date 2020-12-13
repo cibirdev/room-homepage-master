@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/CIBIRDEV.png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@500;600;700&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="hamburger.js"></script>
+  <title>Frontend Mentor | Room homepage</title>
+</head>
+
+<body>
+  <nav>
+    <img src="./images/icon-hamburger.svg" class="icon-hamburger" id="show" alt="icon-hamburger">
+    <img src="./images/logo.svg" class="logo" alt="Logo">
+    <div class="links">
+      <img src="./images/icon-close.svg" class="icon-close" id="hide" alt="icon-close">
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Shop</a></li>
+        <li><a href="/">About</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="main">
+    <div class="next-back-btn">
+      <button class="left" onclick="plusSlides(-1)"><img src="images/icon-angle-left.svg"
+          alt="icon-angle-left"></button>
+      <button class="right" onclick="plusSlides(1)"><img src="images/icon-angle-right.svg"
+          alt="icon-angle-right"></button>
+    </div>
+    <article class="article1 mySlides">
+      <img src="./images/desktop-image-hero-1.jpg" class="img1" alt="desktop-image-hero">
+      <div class="article-content">
+        <div class="article-title">
+          <h1>Discover innovative ways to decorate</h1>
+        </div>
+        <div class="article-details">
+          <p>
+            We provide unmatched quality, comfort, and style for property owners across the country.
+            Our experts combine form and function in bringing your vision to life. Create a room in your
+            own style with our collection and make your property a reflection of you and what you love.
+          </p>
+        </div>
+        <div class="take-action">
+          <a href="/">SHOP NOW <img src="./images/icon-arrow.svg" alt="icon-arrow"></a>
+        </div>
+      </div>
+    </article>
+
+    <article class="article1 mySlides">
+      <img src="./images/desktop-image-hero-2.jpg" class="img1" alt="desktop-image-hero">
+      <div class="article-content">
+        <div class="article-title">
+          <h1>We are available all across the globe</h1>
+        </div>
+        <div class="article-details">
+          <p>
+            With stores all over the world, it's easy for you to find furniture for your home or place of business.
+            Locally, we’re in most major cities throughout the country. Find the branch nearest you using our
+            store locator. Any questions? Don't hesitate to contact us today.
+          </p>
+        </div>
+        <div class="take-action">
+          <a href="/">SHOP NOW <img src="./images/icon-arrow.svg" alt="icon-arrow"></a>
+        </div>
+      </div>
+    </article>
+    <article class="article1 mySlides">
+      <img src="./images/desktop-image-hero-3.jpg" class="img1" alt="desktop-image-hero">
+      <div class="article-content">
+        <div class="article-title">
+          <h1>Manufactured with the best materials</h1>
+        </div>
+        <div class="article-details">
+          <p>
+            Our modern furniture store provide a high level of quality. Our company has invested in advanced technology
+            to ensure that every product is made as perfect and as consistent as possible. With three decades of
+            experience in this industry, we understand what customers want for their home and office.
+          </p>
+        </div>
+        <div class="take-action">
+          <a href="/">SHOP NOW <img src="./images/icon-arrow.svg" alt="icon-arrow"></a>
+        </div>
+      </div>
+    </article>
+
+    <!--artcile 2-->
+    <article class="article2">
+      <img src="./images/image-about-dark.jpg" class="img2" alt="image-about-dark">
+      <div class="article-content2">
+        <div class="article-title2">
+          <h1>About our furniture</h1>
+        </div>
+        <div class="article-details2">
+          <p>
+            Our multifunctional collection blends design and function to suit your individual taste.
+            Make each room unique, or pick a cohesive theme that best express your interests and what
+            inspires you. Find the furniture pieces you need, from traditional to contemporary styles
+            or anything in between. Product specialists are available to help you create your dream space.
+          </p>
+        </div>
+      </div>
+      <img src="./images/image-about-light.jpg" class="img2" alt="image-about-light">
+    </article>
+  </div>
+  <script src="slaider.js"></script>
+</body>
+
+</html>
